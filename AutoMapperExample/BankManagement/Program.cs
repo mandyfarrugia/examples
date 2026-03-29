@@ -14,6 +14,9 @@ namespace BankManagement
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            //Register the AutoMapper service and specify the assembly to scan for profiles.
+            builder.Services.AddAutoMapper(configuration => {}, typeof(Program).Assembly);
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -26,7 +29,6 @@ namespace BankManagement
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
