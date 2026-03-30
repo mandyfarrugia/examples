@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XboxGames")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d032801a3f1f442b4a9ac392d9331c21deac8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b00b2811ec1661b1e3e5a9990dcbbd5a8a862e6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("XboxGames")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XboxGames")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
