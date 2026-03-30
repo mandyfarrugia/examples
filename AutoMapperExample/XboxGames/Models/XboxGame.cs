@@ -1,8 +1,8 @@
 ﻿namespace XboxGames.Models
 {
-    public class XboxGame : Game
+    public sealed class XboxGame : Game
     {
         public bool IsBackwardCompatible { get; set; }
-        public bool IsKineticRequired { get; set; }
+        public bool IsKinectRequired { get; set; }
     }
 }
