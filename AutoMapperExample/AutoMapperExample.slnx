@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="BankManagement/BankManagement.csproj" />
+  <Project Path="XboxGames/XboxGames.csproj" Id="dd6f3a0a-183d-40fe-aefa-7d0403689b8d" />
 </Solution>
